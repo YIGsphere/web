@@ -1,92 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5TPX572QLD"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+   <script
+   src="https://code.jquery.com/jquery-3.3.1.js"
+   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+   crossorigin="anonymous">
+   </script>
+   <script>
+   $(function(){
+   $("#header").load("header.html");
+   $("#footer").load("footer.html");
+   });
+   </script>
 
-        gtag('config', 'G-5TPX572QLD');
-      </script>
-      
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>磁振精密材料</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- awesome fontfamily -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
    <!-- body -->
    <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="" /></div>
-      </div>
-      <!-- end loader -->
-      <!-- header -->
-      <header>
-         <div class="header">
-            <div class="container-fluid">
-               <div class="row d_flex">
-                  <div class=" col-md-2 col-sm-3 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-8 col-sm-9">
-                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarsExample04">
-                           <ul class="navbar-nav mr-auto">
-                              <li class="nav-item active">
-                                 <a class="nav-link" href="index.html">主页</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#idabout">关于</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#idproduct">产品</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#idpartners">合作伙伴 </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#idfooter">联系我们</a>
-                              </li>
-                           </ul>
-                        </div>
-                     </nav>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </header>
-      <!-- end header -->
+   <div id="header"></div>
+
       <!-- start slider section -->
       <div id="top_section" class=" banner_main">
          <div class="container">
@@ -110,8 +39,8 @@
                                     <li> Cavity QED 腔量子电动力学</li>
                                     <li> Nonreciprocity / Non-Hermition system 非互易性 / 非厄米系统</li>
                                     <li> Level attraction due to dissipative coupling 耗散耦合引起的能级吸引</li>
-                                    <li> Magnetocrystalline anisotropy 磁晶各向异性</li> 
-                                                                        
+                                    <li> Magnetocrystalline anisotropy 磁晶各向异性</li>
+
                                     <a class="read_more" href="#idabout">关于公司 </a><a class="read_more" href="#idfooter">联系我们 </a>
                                  </div>
                               </div>
@@ -129,8 +58,8 @@
                                     <li> Cavity QED 腔量子电动力学</li>
                                     <li> Nonreciprocity / Non-Hermition system 非互易性 / 非厄米系统</li>
                                     <li> Level attraction due to dissipative coupling 耗散耦合引起的能级吸引</li>
-                                    <li> Magnetocrystalline anisotropy 磁晶各向异性</li> 
-                                    
+                                    <li> Magnetocrystalline anisotropy 磁晶各向异性</li>
+
                                     <a class="read_more" href="#idabout"> About Company </a><a class="read_more" href="#idfooter">Contact us </a>
                                  </div>
                               </div>
@@ -263,7 +192,7 @@
                <div class="col-md-12">
                   <div class="titlepage text_align_center">
                      <h2>YIG球体 产品明细</h2>
-                     
+
                      <p> 科研中最通常使用的是直径为1.0mm的随机晶相YIG球体（无固定）。 详情请见表格</p>
                      <p> 使用陶瓷杆固定[100], [110], [111]晶相的YIG球。可做涉及到磁晶各向异性相关的研究。</p>
                      <p> 除直径一毫米外，还有直径为0.2毫米、0.25毫米、0.3毫米、0.4毫米、0.5毫米、0.6毫米、<br> 0.7毫米、0.8毫米、0.9毫米的YIG球现货。</p>
@@ -453,8 +382,8 @@
                      <a class="logo_footer" href="index.html"><img src="images/logo_footer.png" alt="#" /></a>
                   </div>
 
-                 
-               
+
+
                   <div class="titlepage text_align_left">
                      <div class="Informa conta">
                         <h3>公司联系方式</h3>
