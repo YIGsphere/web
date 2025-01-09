@@ -2,12 +2,13 @@
 File Name: responsive.css 
 ---------------------------------------------------------------------*/
 
-@media (min-width: 1200px) and (max-width: 1320px) {
+@media (min-width: 1200px) and (max-width: 2160px) {
     ul.email li {
         padding: 0px 31px;
     }
      #top_section {
-        height: 700px;
+        padding-top: 100px;
+        height: 800px;
     }
 }
 
@@ -19,8 +20,8 @@ File Name: responsive.css
         padding: 0px 19px;
     }
     #top_section {
-        padding-top: 164px;
-        height: 700px;
+        padding-top: 90px;
+        height: 950px;
     }
     #we1 a.carousel-control-prev {
         left: 42%;
@@ -38,8 +39,8 @@ File Name: responsive.css
         padding: 0px 8px;
     }
     #top_section {
-        padding-top: 150px;
-        height: 600px;
+        padding-top: 100px;
+        height: 880px;
     }
     .banner_main .bluid h1 {
         font-size: 62px;
@@ -76,8 +77,8 @@ File Name: responsive.css
 
 @media (min-width: 576px) and (max-width: 767px) {
     #top_section {
-        padding-top: 150px;
-        height: 700px;
+        padding-top: 100px;
+        height: 1180px;
     }
     .d_none {
         display: none;
@@ -160,7 +161,7 @@ File Name: responsive.css
         line-height: 59px;
     }
     #top_section {
-        height: 678px;
+        height: 1200px;
     }
     .banner_main .bluid .read_more {
         margin-right: 0px;
