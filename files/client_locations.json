@@ -1,0 +1,401 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beijing",
+        "name_zh": "北京"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4074, 39.9042]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shanghai",
+        "name_zh": "上海"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4737, 31.2304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ottawa",
+        "name_zh": "渥太华"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.6972, 45.4215]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winnipeg",
+        "name_zh": "温尼伯"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.1384, 49.8951]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chengdu",
+        "name_zh": "成都"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0665, 30.5728]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shenzhen",
+        "name_zh": "深圳"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.0579, 22.5431]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ji'nan",
+        "name_zh": "济南"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.0009, 36.6758]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xi'an",
+        "name_zh": "西安"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.9398, 34.3416]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wuhan",
+        "name_zh": "武汉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.3054, 30.5931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guangzhou",
+        "name_zh": "广州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.2644, 23.1291]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "London",
+        "name_zh": "伦敦"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1276, 51.5074]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New York",
+        "name_zh": "纽约"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.006, 40.7128]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Francisco",
+        "name_zh": "旧金山"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4194, 37.7749]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ankara",
+        "name_zh": "安卡拉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.8597, 39.9334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Istanbul",
+        "name_zh": "伊斯坦布尔"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9784, 41.0082]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aachen",
+        "name_zh": "亚琛"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.0839, 50.7753]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tianjin",
+        "name_zh": "天津"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.2000, 39.1333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Montreal",
+        "name_zh": "蒙特利尔"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.5673, 45.5017]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lanzhou",
+        "name_zh": "兰州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8343, 36.0611]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hangzhou",
+        "name_zh": "杭州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.1551, 30.2741]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nanjing",
+        "name_zh": "南京"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.7969, 32.0603]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hong Kong",
+        "name_zh": "香港"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.1095, 22.3964]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harbin",
+        "name_zh": "哈尔滨"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.5349, 45.8038]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mianyang",
+        "name_zh": "绵阳"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.7414, 31.4640]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dongguan",
+        "name_zh": "东莞"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.7463, 23.0465]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hefei",
+        "name_zh": "合肥"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.2830, 31.8612]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taipei",
+        "name_zh": "台北"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5654, 25.0330]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "langfang",
+        "name_zh": "廊坊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.7036, 39.5186]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "xinxiang",
+        "name_zh": "新乡"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.9126, 35.3075]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qingdao",
+        "name_zh": "青岛"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3826, 36.0671]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ningbo",
+        "name_zh": "宁波"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.6147, 29.8683]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hefei",
+        "name_zh": "合肥"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.2830, 31.8612]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taiyuan",
+        "name_zh": "太原"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.5492, 37.8570]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philadelphia",
+        "name_zh": "费城"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.1652, 39.9526]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sherbrooke",
+        "name_zh": "舍布鲁克"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.8940, 45.4042]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seoul",
+        "name_zh": "首尔"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.9780, 37.5665]
+      }
+    }
+  ]
+}
