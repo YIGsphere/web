@@ -208,6 +208,7 @@ button {
      left: 0;
      right: 0;
      top: 55px;
+     display: none;
 }
 
 .titlepage h2 {
@@ -458,7 +459,8 @@ ul.email li i {
      padding: 0;
 }
 
-#bo_ho:hover {
+#bo_ho:hover,
+.bo_ho:hover {
      border: #292a2c solid 1px;
      transition: ease-in all 0.5s;
 }
@@ -596,18 +598,21 @@ ul.email li i {
      overflow: hidden;
 }
 
-#ho_nf:hover {
+#ho_nf:hover,
+.ho_nf:hover {
      box-shadow: 3px 0 20px rgba(30, 30, 30, 0.31);
      transition: ease-in all 0.5s;
 }
 
-#ho_nf:hover .portfolio_text {
+#ho_nf:hover .portfolio_text,
+.ho_nf:hover .portfolio_text {
      height: 240px;
      transition: ease-in all 0.5s;
      padding: 40px 40px;
 }
 
-#ho_nf:hover .li_icon {
+#ho_nf:hover .li_icon,
+.ho_nf:hover .li_icon {
      margin-top: -65px;
      transition: ease-in all 0.7s;
 }
@@ -707,6 +712,7 @@ ul.email li i {
      font-weight: bold;
      font-size: 30px;
      line-height: 35px;
+     text-align: center;
 }
 
 .chose_box strong {
@@ -729,6 +735,33 @@ ul.email li i {
 .chose_box .read_more:hover {
      background: #0e0b01;
      color: #fff;
+}
+
+.global_clients {
+     padding-top: 80px;
+}
+
+.global_clients_intro {
+     color: #ffffff;
+     font-size: 20px;
+     line-height: 32px;
+     max-width: 980px;
+     margin-bottom: 28px;
+}
+
+#globalClientMap {
+     width: 100%;
+     height: 460px;
+     border: 2px solid rgba(255, 255, 255, 0.2);
+     border-radius: 8px;
+     overflow: hidden;
+}
+
+.global_clients_note {
+     color: #d7d7d7;
+     font-size: 16px;
+     line-height: 24px;
+     margin-top: 12px;
 }
 
 

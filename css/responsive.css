@@ -140,6 +140,13 @@ File Name: responsive.css
         width: 48px;
         float: right;
     }
+    #globalClientMap {
+        height: 360px;
+    }
+    .global_clients_intro {
+        font-size: 18px;
+        line-height: 30px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -181,7 +188,8 @@ File Name: responsive.css
         font-size: 24px;
         line-height: 54px;
     }
-    #ho_nf:hover .portfolio_text {
+    #ho_nf:hover .portfolio_text,
+    .ho_nf:hover .portfolio_text {
         height: 135px;
         padding: 29px 14px;
     }
@@ -255,5 +263,12 @@ File Name: responsive.css
         background: url(../images/menu_btn.png);
         background-repeat: no-repeat;
         width: 48px;
+    }
+    #globalClientMap {
+        height: 300px;
+    }
+    .global_clients_intro {
+        font-size: 16px;
+        line-height: 26px;
     }
 }
