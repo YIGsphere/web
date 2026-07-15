@@ -654,13 +654,24 @@ $("#footer").load("footer.html");
                }
 
                function loadLocations() {
-                  return fetchJson("files/client_locations.geojson")
-                     .catch(function () {
-                        return fetchJson("files/client_locations.json");
-                     })
-                     .catch(function () {
-                        return fallbackGeojson;
+                  var localJsonUrl = new URL("files/client_locations.json", document.baseURI).href;
+                  var githubRawBase = "https://raw.githubusercontent.com/YIGsphere/web/main/files/";
+                  var candidateUrls = [
+                     localJsonUrl,
+                     githubRawBase + "client_locations.json"
+                  ];
+
+                  function tryAt(index) {
+                     if (index >= candidateUrls.length) {
+                        return Promise.resolve(fallbackGeojson);
+                     }
+                     return fetchJson(candidateUrls[index]).catch(function (error) {
+                        console.warn("Location source failed:", candidateUrls[index], error);
+                        return tryAt(index + 1);
                      });
+                  }
+
+                  return tryAt(0);
                }
 
                L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
